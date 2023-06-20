@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.blog1{
+    padding-top: 6%;
+}
+.R1{
+    background-image: url("./images/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    padding-top: 30%;
+    padding-bottom: 70%;
+    padding-left: 19%;
+    color: white;
+}
+.R2{
+  background-color: black;
+}
+.list{
+    list-style: none;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.button1{
+    border-radius: 20px;
+    margin-top:4%;
+}
+.text-lor{
+text-align: center;
+padding-top: 15%;
+padding-bottom: 33%;
+}
+.R3{
+    background-color: rgb(148, 144, 144);
+    margin-top: 20%;
+
+}
+.text-c{
+    text-align: center;
+    padding-top: 11%;
+    padding-bottom: 11%;
+}
+.oip{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.center{
+  position: absolute;
+  left: 41%;
+  top: 50%;
+}
+/*blog*/
+.buttonS{
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 414px) {
+    .center {
+        position: absolute;
+        left: 23%;
+        top: 35%;
+    }
+  }
+  @media screen and (max-width: 281px) {
+    .center {
+        position: absolute;
+        left: 14%;
+        top: 35%;
+    }
+    .oip {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 100%;
+    }
+  }
+
